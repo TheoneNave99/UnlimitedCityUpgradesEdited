@@ -1,25 +1,111 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+                "name": "Wall Reinforcement",
+		"cost": 75,
+                "requiredBuilding": "Walls",
+		"requiredTech": "Masonry",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Wall Reinforcement] [in this city] <hidden from users>","Instantly provides [3] [City Defence Modifier]",
+                        "+3% City Defence Strength","[+3]% Strength for cities <when defending> <for [9999] turns> <hidden from users>"]
+        },
+        {
+                "name": "Irrigations",
+		"cost": 75,
+                "requiredBuilding": "Granary",
+		"requiredTech": "Calendar",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Irrigations] [in this city] <hidden from users>","Instantly provides [3] [City Food Modifier]",
+                        "+3% City Food Yield","[+3]% [Food] [in this city] <for [9999] turns> <hidden from users>"]
+        },
+	{
+		"name": "Masterpieces",
+		"cost": 100,
+                "requiredBuilding": "Monument",
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Masterpieces] [in this city] <hidden from users>","Instantly provides [3] [City Culture Modifier]",
+                        "+3% City Culture Yield","[+3]% [Culture] [in this city] <for [9999] turns> <hidden from users>"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Manufacture Districts",
+		"cost": 120,
+                "requiredBuilding": "Workshop",
+		"requiredTech": "Metal Casting",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Manufacture Districts] [in this city] <hidden from users>","Instantly provides [3] [City Production Modifier]",
+                        "+3% City Production Yield","[+3]% [Production] [in this city] <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Investment",
+		"cost": 300,
+                "requiredBuilding": "Factory",
+		"requiredTech": "Industrialization",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Investment] [in this city] <hidden from users>","Instantly provides [10] [City Production Modifier]","Instantly consumes [10] [City Production Modifier] <after [10] turns>",
+                        "+10% City Production Yield during 10 turns","[+10]% [Production] [in this city] <for [10] turns> <hidden from users>"]
+	},
+	{
+		"name": "Small Shrine",
+		"cost": 60,
+                "requiredBuilding": "Shrine",
+		"requiredTech": "Archery",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Small Shrine] [in this city] <hidden from users>","Instantly provides [3] [City Faith Modifier]",
+                        "+3% City Faith Yield","[+3]% [Faith] [in this city] <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Trade Association",
+		"cost": 120,
+                "requiredBuilding": "Market",
+		"requiredTech": "Guilds",
+		"uniques": ["Can be continually purchased","Unbuildable <hidden from users>","Remove [Trade Association] [in this city] <hidden from users>","Instantly provides [3] [City Gold Modifier] <before adopting [Economic Domination]>","Instantly provides [6] [City Gold Modifier] <after adopting [Economic Domination]>",
+                        "+3% City Gold Yield","[+3]% [Gold] [in this city] <for [9999] turns> <hidden from users> <before adopting [Economic Domination]>","[+6]% [Gold] [in this city] <for [9999] turns> <hidden from users> <after adopting [Economic Domination]>"]
+	},
+	{
+		"name": "Siege Mastery",
+		"cost": 160,
+                "requiredBuilding": "Barracks",
+		"requiredTech": "Physics",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Siege Mastery] [in this city] <hidden from users>","Instantly provides [4] [Siege Strength Modifier]",
+                        "+4% Strength for Siege units","[+4]% Strength <for [Siege] units> <for [9999] turns> <hidden from users>"]
+	}
+	{
+		"name": "Counterattack Mastery",
+		"cost": 75,
+                "requiredBuilding": "Barracks",
+		"requiredTech": "Bronze Working",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Counterattack Mastery] [in this city] <hidden from users>","Instantly provides [1] [Defence Strength Modifier]",
+                        "+1% Defence for All units","[+1]% Strength <when defending> <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Combat Mastery",
+		"cost": 75,
+                "requiredBuilding": "Barracks",
+		"requiredTech": "Bronze Working",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Combat Mastery] [in this city] <hidden from users>","Instantly provides [1] [Attack Strength Modifier]",
+                        "+1% Attack Strength for All units","[+1]% Strength <when attacking> <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Tactics Mastery",
+		"cost": 160,
+		"requiredTech": "Chivalry",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Tactics Mastery] [in this city] <hidden from users>","Instantly provides [2] [Mounted and Armored Strength Modifier]",
+                        "+2% Strength for Mounted and Armored units","[+2]% Strength <for [Armored] units> <for [9999] turns> <hidden from users>","[+2]% Strength <for [Mounted] units> <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Air Port",
+		"cost": 500,
+		"requiredTech": "Flight",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Air Port] [in this city] <hidden from users>","Instantly provides [1] [Aeroplane Defence and Healing Modifier]",
+                        "+1 HP Healing and +6% Strength vs cities for Air units","[+6]% Strength <vs cities> <for [Air] units> <for [9999] turns> <hidden from users>","[+1] HP when healing <for [Air] units> <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Missile Silo",
+		"cost": 750,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Only available <if [Manhattan Project] is constructed>","Can be continually purchased","Unbuildable","Remove [Missile Silo] [in this city] <hidden from users>","Instantly provides [1] [Missile Age Modifier]",
+                        "+10% Strength and +5% Construct Speed (in this city) for Missile units","[+10]% Strength <for [Missile] units> <for [9999] turns> <hidden from users>","[+5]% Production when constructing [Missile] units [in this city] <for [9999] turns> <hidden from users>"]
+	},
+	{
+		"name": "Capitalism",
+		"cost": 250,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Economics",
+		"uniques": ["Can be continually purchased","Unbuildable","Remove [Capitalism] [in this city] <hidden from users>","Instantly provides [1] [Cost Reduce Modifier]",
+                        "Cost of purchasing items [-1]% in all cities","[Gold] cost of purchasing items in cities [-1]% <for [9999] turns> <hidden from users>"]
 	}
 ]
