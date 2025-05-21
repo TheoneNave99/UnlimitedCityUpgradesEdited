@@ -1,19 +1,12 @@
 [
-	{
-                "name": "Wall Reinforcement",
-		"cost": 75,
-                "requiredBuilding": "Walls",
-		"requiredTech": "Masonry",
-		"uniques": ["Can be continually purchased","Unbuildable","Remove [Wall Reinforcement] [in this city] <hidden from users>","Instantly provides [3] [City Defence Modifier]",
-                        "+3% City Defence Strength","[+3]% Strength for cities <when defending> <for [9999] turns> <hidden from users>"]
-        },
+
         {
                 "name": "Irrigations",
 		"cost": 75,
                 "requiredBuilding": "Granary",
 		"requiredTech": "Calendar",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Irrigations] [in this city] <hidden from users>","Instantly provides [3] [City Food Modifier]",
-                        "+3% City Food Yield","[+3]% [Food] [in this city] <for [9999] turns> <hidden from users>"]
+                        "[+3]% [Food] [in this city] <for [9999] turns> <hidden from users>"]
         },
 	{
 		"name": "Masterpieces",
@@ -21,7 +14,7 @@
                 "requiredBuilding": "Monument",
 		"requiredTech": "Drama and Poetry",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Masterpieces] [in this city] <hidden from users>","Instantly provides [3] [City Culture Modifier]",
-                        "+3% City Culture Yield","[+3]% [Culture] [in this city] <for [9999] turns> <hidden from users>"]
+                        "[+3]% [Culture] [in this city] <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Manufacture Districts",
@@ -29,7 +22,7 @@
                 "requiredBuilding": "Workshop",
 		"requiredTech": "Metal Casting",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Manufacture Districts] [in this city] <hidden from users>","Instantly provides [3] [City Production Modifier]",
-                        "+3% City Production Yield","[+3]% [Production] [in this city] <for [9999] turns> <hidden from users>"]
+                        "[+3]% [Production] [in this city] <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Investment",
@@ -45,7 +38,7 @@
                 "requiredBuilding": "Shrine",
 		"requiredTech": "Archery",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Small Shrine] [in this city] <hidden from users>","Instantly provides [3] [City Faith Modifier]",
-                        "+3% City Faith Yield","[+3]% [Faith] [in this city] <for [9999] turns> <hidden from users>"]
+                        "[+3]% [Faith] [in this city] <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Trade Association",
@@ -53,7 +46,7 @@
                 "requiredBuilding": "Market",
 		"requiredTech": "Guilds",
 		"uniques": ["Can be continually purchased","Unbuildable <hidden from users>","Remove [Trade Association] [in this city] <hidden from users>","Instantly provides [3] [City Gold Modifier] <before adopting [Economic Domination]>","Instantly provides [6] [City Gold Modifier] <after adopting [Economic Domination]>",
-                        "+3% City Gold Yield","[+3]% [Gold] [in this city] <for [9999] turns> <hidden from users> <before adopting [Economic Domination]>","[+6]% [Gold] [in this city] <for [9999] turns> <hidden from users> <after adopting [Economic Domination]>"]
+                        "[+3]% [Gold] [in this city] <for [9999] turns> <hidden from users> <before adopting [Economic Domination]>","[+6]% [Gold] [in this city] <for [9999] turns> <hidden from users> <after adopting [Economic Domination]>"]
 	},
 	{
 		"name": "Siege Mastery",
@@ -61,7 +54,7 @@
                 "requiredBuilding": "Barracks",
 		"requiredTech": "Physics",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Siege Mastery] [in this city] <hidden from users>","Instantly provides [4] [Siege Strength Modifier]",
-                        "+4% Strength for Siege units","[+4]% Strength <for [Siege] units> <for [9999] turns> <hidden from users>"]
+                        "[+4]% Strength <for [Siege] units> <for [9999] turns> <hidden from users>"]
 	}
 	{
 		"name": "Counterattack Mastery",
@@ -69,7 +62,7 @@
                 "requiredBuilding": "Barracks",
 		"requiredTech": "Bronze Working",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Counterattack Mastery] [in this city] <hidden from users>","Instantly provides [1] [Defence Strength Modifier]",
-                        "+1% Defence for All units","[+1]% Strength <when defending> <for [9999] turns> <hidden from users>"]
+                        "[+1]% Strength <when defending> <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Combat Mastery",
@@ -77,14 +70,14 @@
                 "requiredBuilding": "Barracks",
 		"requiredTech": "Bronze Working",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Combat Mastery] [in this city] <hidden from users>","Instantly provides [1] [Attack Strength Modifier]",
-                        "+1% Attack Strength for All units","[+1]% Strength <when attacking> <for [9999] turns> <hidden from users>"]
+                        "[+1]% Strength <when attacking> <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Tactics Mastery",
 		"cost": 160,
 		"requiredTech": "Chivalry",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Tactics Mastery] [in this city] <hidden from users>","Instantly provides [2] [Mounted and Armored Strength Modifier]",
-                        "+2% Strength for Mounted and Armored units","[+2]% Strength <for [Armored] units> <for [9999] turns> <hidden from users>","[+2]% Strength <for [Mounted] units> <for [9999] turns> <hidden from users>"]
+                        "[+2]% Strength <for [Armored] units> <for [9999] turns> <hidden from users>","[+2]% Strength <for [Mounted] units> <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Air Port",
