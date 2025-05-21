@@ -1,0 +1,69 @@
+[
+        {
+                "name": "Centralization",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": ["[+2 Gold] [in capital]","Production to [Gold] conversion in cities changed by [+10]%"],
+        "policies": [
+            {
+                "name": "Capital Accumulation",
+                "uniques": [
+                        "[+10]% [Faith] <when above [29] [City Faith Modifier]>",
+                        "[+5]% [Production] [in all cities] <when above [29] [City Production Modifier]>",
+                        "[+5]% [Food] [in all cities] <when above [29] [City Food Modifier]>",
+                        "[+10]% [Culture] <when above [29] [City Culture Modifier]>",
+                    "[+10]% [Gold] <when above [29] [City Gold Modifier]>"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Opportunism",
+                "uniques": [
+                    "[+5 Gold] [in all cities] <during a Golden Age>", "[+3 Production] [in all cities] <while at war>", "[+3 Culture] [in all cities] <while not at war>"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Free Market",
+                "uniques": ["[Gold] cost of purchasing [Trade Association] buildings [-25]%",
+                "[Gold] cost of purchasing [Capitalism] buildings [-25]%"],
+                "requires": ["Capital Accumulation"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Adhocracy",
+                "uniques": [
+                    "[Gold] cost of purchasing [Combat Mastery] buildings [-25]% <when at war>",
+                        "[Gold] cost of purchasing [Counterattack Mastery] buildings [-25]% <when at war>"
+                ],
+                "requires": ["Opportunism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Economic Domination",
+                "uniques": ["Gold required for repurchasable buildings has been reduced by 10%",
+                        "[Gold] cost of purchasing [Can be continually purchased] buildings [-10]% <hidden from users>"],
+                "requires": ["Free Market"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Centralization Complete",
+                "uniques": [
+                    "Gold required for repurchasable buildings has been reduced by 20%",
+                        "[Gold] cost of purchasing [Can be continually purchased] buildings [-20]% <hidden from users>"
+                ]
+            }
+        ]
+        }
+]
