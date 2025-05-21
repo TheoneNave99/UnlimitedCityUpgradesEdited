@@ -9,7 +9,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["[+2 Gold] [in capital]","Production to [Gold] conversion in cities changed by [+10]%"],
+        "uniques": ["[+2 Gold] [in capital]","Production to [Gold] conversion in cities changed by [+15]%"],
         "policies": [
             {
                 "name": "Capital Accumulation",
