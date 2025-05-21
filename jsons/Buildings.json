@@ -50,38 +50,38 @@
 	},
 	{
 		"name": "Siege Mastery",
-		"cost": 160,
+		"cost": 500,
                 "requiredBuilding": "Barracks",
 		"requiredTech": "Physics",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Siege Mastery] [in this city] <hidden from users>","Instantly provides [4] [Siege Strength Modifier]",
-                        "[+4]% Strength <for [Siege] units> <for [9999] turns> <hidden from users>"]
+                        "[+10]% Strength <for [Siege] units> <for [9999] turns> <hidden from users>"]
 	}
 	{
 		"name": "Counterattack Mastery",
-		"cost": 75,
+		"cost": 750,
                 "requiredBuilding": "Barracks",
 		"requiredTech": "Bronze Working",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Counterattack Mastery] [in this city] <hidden from users>","Instantly provides [1] [Defence Strength Modifier]",
-                        "[+1]% Strength <when defending> <for [9999] turns> <hidden from users>"]
+                        "[+10]% Strength <when defending> <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Combat Mastery",
-		"cost": 75,
+		"cost": 750,
                 "requiredBuilding": "Barracks",
 		"requiredTech": "Bronze Working",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Combat Mastery] [in this city] <hidden from users>","Instantly provides [1] [Attack Strength Modifier]",
-                        "[+1]% Strength <when attacking> <for [9999] turns> <hidden from users>"]
+                        "[+10]% Strength <when attacking> <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Tactics Mastery",
-		"cost": 160,
+		"cost": 750,
 		"requiredTech": "Chivalry",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Tactics Mastery] [in this city] <hidden from users>","Instantly provides [2] [Mounted and Armored Strength Modifier]",
-                        "[+2]% Strength <for [Armored] units> <for [9999] turns> <hidden from users>","[+2]% Strength <for [Mounted] units> <for [9999] turns> <hidden from users>"]
+                        "[+10]% Strength <for [Armored] units> <for [9999] turns> <hidden from users>","[+2]% Strength <for [Mounted] units> <for [9999] turns> <hidden from users>"]
 	},
 	{
 		"name": "Air Port",
-		"cost": 500,
+		"cost": 750,
 		"requiredTech": "Flight",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Air Port] [in this city] <hidden from users>","Instantly provides [1] [Aeroplane Defence and Healing Modifier]",
                         "+1 HP Healing and +6% Strength vs cities for Air units","[+6]% Strength <vs cities> <for [Air] units> <for [9999] turns> <hidden from users>","[+1] HP when healing <for [Air] units> <for [9999] turns> <hidden from users>"]
@@ -99,6 +99,6 @@
 		"requiredBuilding": "Bank",
 		"requiredTech": "Economics",
 		"uniques": ["Can be continually purchased","Unbuildable","Remove [Capitalism] [in this city] <hidden from users>","Instantly provides [1] [Cost Reduce Modifier]",
-                        "Cost of purchasing items [-1]% in all cities","[Gold] cost of purchasing items in cities [-1]% <for [9999] turns> <hidden from users>"]
+                        "[Gold] cost of purchasing items in cities [-1]% <for [9999] turns> <hidden from users>"]
 	}
 ]
