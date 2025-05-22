@@ -26,7 +26,7 @@
             {
                 "name": "Opportunism",
                 "uniques": [
-                    "[+5 Gold] [in all cities] <during a Golden Age>", "[+3 Production] [in all cities] <while at war>", "[+3 Culture] [in all cities] <while not at war>"
+                    "[+3 Gold] [in all cities] <during a Golden Age>", "[+2 Production] [in all cities] <when at war>", "[+2 Culture] [in all cities] <when not at war>"
                 ],
                 "row": 1,
                 "column": 4
